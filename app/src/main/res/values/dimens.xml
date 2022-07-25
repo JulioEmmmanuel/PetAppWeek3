@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardSize">200dp</dimen>
+    <dimen name="imgSize">150dp</dimen>
+    <dimen name="textSize">100dp</dimen>
+    <dimen name="iconSize">20dp</dimen>
+    <dimen name="iconSizeToolbar">30dp</dimen>
+    <dimen name="minHeight">30dp</dimen>
+    <dimen name="marginCardElements">10dp</dimen>
+    <dimen name="marginToolbar">15dp</dimen>
+    <dimen name="marginCard">20dp</dimen>
+    <dimen name="actionBarElevation">4dp</dimen>
+</resources>

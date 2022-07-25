@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Pet App</string>
+    <string name="name">Pet name</string>
 </resources>

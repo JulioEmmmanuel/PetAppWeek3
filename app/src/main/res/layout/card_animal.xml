@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cardSize"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/marginCard"
+    android:layout_marginBottom="@dimen/marginCard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgMascota"
+            android:layout_width="@dimen/imgSize"
+            android:layout_height="@dimen/imgSize"
+            android:src="@drawable/cat_1"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minHeight"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@id/imgMascota">
+
+            <Button
+                android:id="@+id/btnLike"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:background="@drawable/bone_icon"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="@dimen/marginCardElements"/>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="@dimen/textSize"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_marginLeft="@dimen/marginCardElements"/>
+
+            <TextView
+                android:id="@+id/tvLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/marginCardElements"/>
+
+            <ImageView
+                android:id="@+id/imgBoneActive"
+                android:layout_width="@dimen/iconSize"
+                android:layout_height="@dimen/iconSize"
+                android:layout_marginLeft="@dimen/marginCardElements"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bone_active" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
